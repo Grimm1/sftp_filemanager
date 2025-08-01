@@ -7,7 +7,6 @@
   "dependencies": {
     "@patternfly/react-core": "^4.276.8",
     "@patternfly/react-table": "^4.113.0",
-    "cockpit": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
