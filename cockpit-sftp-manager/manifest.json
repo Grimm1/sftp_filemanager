@@ -1,0 +1,16 @@
+{
+  "name": "sftp-manager",
+  "description": "Cockpit plugin for managing SFTP-only users",
+  "version": "1.0.0",
+  "requires": {
+    "cockpit": "200"
+  },
+  "menu": {
+    "sftp-manager": {
+      "label": "SFTP User Manager",
+      "path": "sftp-manager",
+      "category": "System"
+    }
+  },
+  "content-security-policy": "default-src 'self'; connect-src 'self' ws://localhost:9090"
+}
